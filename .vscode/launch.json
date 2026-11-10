@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MySketch",
+            "request": "launch",
+            "mainClass": "edu.corvallis.processing.MySketch",
+            "projectName": "processing-starter"
+        },
+        {
+            "type": "java",
             "name": "Run Processing Sketch",
             "request": "launch",
             "mainClass": "edu.corvallis.processing.Sketch"

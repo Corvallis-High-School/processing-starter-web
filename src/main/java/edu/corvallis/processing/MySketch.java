@@ -20,8 +20,6 @@ public class MySketch extends ProcessingSketch {
         ellipse(mouseX, mouseY, 100, 100);
     }
     public static void main(String[] args) {
-        // XRender draws a black canvas on the dev container's VNC display; must be set before AWT starts
-        System.setProperty("sun.java2d.xrender", "false");        
         launch(MySketch.class);
     }
 }

@@ -28,7 +28,7 @@ Use this repository as a starting point for Java projects that behave like Proce
 	   public static void main(String[] args) {
 		   PApplet.main(MySketch.class.getName());
 	   }
-   }
+   }				
    ```
 
 5. Run the class containing `main` from your IDE or the project's configured run task.
@@ -38,5 +38,7 @@ Use this repository as a starting point for Java projects that behave like Proce
 - `settings()` configures the sketch, including its window size.
 - `setup()` runs once when the sketch starts.
 - `draw()` runs repeatedly while the sketch is running.
+- `keypressed()` called once every time a key is pressed. The key that was pressed is stored in the key variable.
+
 
 Add more Java classes and assets as your project grows. Check the project configuration for its required Java version and how dependencies and run tasks are managed.

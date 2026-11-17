@@ -16,4 +16,4 @@
 - `keyPressed()` called once every time a key is pressed. The key that was pressed is stored in the key variable.
 
 ## Create
-Add more Java classes and assets as your project grows. Check the project configuration for its required Java version and how dependencies and run tasks are managed.
+Stay tuned for more instructions on how to create your own Processing sketches.

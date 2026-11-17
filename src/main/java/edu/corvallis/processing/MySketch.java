@@ -19,6 +19,10 @@ public class MySketch extends ProcessingSketch {
         fill(255, 0, 0);
         ellipse(mouseX, mouseY, 100, 100);
     }
+
+    //Custom Functions 
+
+    //Main method
     public static void main(String[] args) {
         launch(MySketch.class);
     }
